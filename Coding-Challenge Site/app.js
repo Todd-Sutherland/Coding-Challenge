@@ -22,7 +22,7 @@ function getExternal() {
       console.log(err);
     });
 }
-function clearItems() {
+function removeItem() {
   var elem = document.getElementById("output");
   elem.parentNode.removeChild(elem);
   return false;
